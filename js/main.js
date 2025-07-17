@@ -143,7 +143,7 @@ projetos.forEach((projeto) => {
     anteriorFeedback();
     reiniciarIntervalo();
   });
- 
+  
   function interromperFeedback() {
     clearInterval(intervalo);
   }

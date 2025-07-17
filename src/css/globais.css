@@ -64,7 +64,12 @@ html {
     height: 40px;
     font-size: 1.8rem;
     text-align: center;
-    background-color: rgb(167, 25, 72);
+    /* background-color: rgb(167, 25, 72); */
+
+    background-color: var(--cor-primaria);
+  color: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+
     margin: 0.4px;
     border-radius: 50%;
     transition: all 0.3s ease;
@@ -75,11 +80,16 @@ html {
   }
 
   .redes-sociais a:hover {
-    color: var(--cor-primaria);
+    /* color: var(--cor-primaria); */
+
+    background-color: var(--cor-secundaria);
+    
   }
 
   .outer-shadow {
-    box-shadow: 3px 3px #640c8d, -3px -3px 3px #88143a;
+    /* box-shadow: 3px 3px #640c8d, -3px -3px 3px #88143a; */
+    box-shadow: 0 2px 6px #bcd9e5;
+
   }
 
 
@@ -106,14 +116,28 @@ html {
   }
 
   .botao {
-    font-size: var(--fonte-grande);
+    /* font-size: var(--fonte-grande);
     padding: 10px 20px;
     border-radius: 20px;
     transition: all 0.3s ease;
-    background-color: rgb(112, 16, 28);
+    /* background-color: rgb(112, 16, 28); */
+    background-color: #bcd9e5;
+    color: #000; 
+
+     background-color: var(--cor-primaria);
+  color: white;
+  font-weight: 600;
+  padding: 10px 25px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
   }
 
   .botao:hover {
-    background-color: rgb(182, 47, 65);
-    color: var(--cor-branca);
+    /* background-color: rgb(182, 47, 65); */
+    /* background-color: #a5cce0;
+    color: var(--cor-branca); */
+
+      background-color: var(--cor-secundaria);
+  color: white;
+
   }

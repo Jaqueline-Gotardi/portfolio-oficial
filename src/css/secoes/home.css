@@ -11,7 +11,7 @@
     position: relative;
     width: 50vh;
     height: 50vh; 
-    color: black;
+    color: 	#222;
      /* height: 69vh; */
     letter-spacing: 2px;
     
@@ -55,9 +55,10 @@
 
 .home .img-home .img-box img {
     width: 100%;
-    border-radius: 10%;
+    border-radius: 20%;
     /* border: 10px solid transparent; */
-     box-shadow: 30px 10px 3px #230233, -30px -9px 3px #57041f;
+     /* box-shadow: 30px 10px 3px #230233, -30px -9px 3px #57041f; */
+     box-shadow: 0 5px 15px rgba(2, 104, 115, 0.3); 
 }
 
 .home .texto-home p {
