@@ -1,8 +1,8 @@
 :root {
     --cor-primaria: 	#026873;
-    --cor-secundaria: 	#663399;    
-    --cor-branca: #e6f4f9;
-    --cor-fundo-escuro: #040203;    
+    --cor-secundaria: 		#3d2c8d;    
+    --cor-branca: 	#fefefe;
+    --cor-fundo-escuro: #1a1a1a;    
     --cor-fundo-cinza-escuro: #282828;
     --cor-fundo-cinza-claro: #353535;    
   }
@@ -21,7 +21,7 @@
   }
 
   :root{
-    --white: 	#e6f4f9;
+    --white: 	#fffbfb;
     --black:   #282828;;
     --purple1: #7d1ad4; 
     --purple2: #6e17b9;

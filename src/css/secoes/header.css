@@ -22,7 +22,7 @@
 } */
 
 .header {
- background-color: #6c9ba0;
+ background-color: 	#89b1d4;
  position: sticky;
  top: 0;
   z-index: 999;
@@ -59,7 +59,6 @@
 .header nav ul li a {
     display: inline-block; 
     transition: transform 0.3s ease;
-    
   
   
 }
@@ -129,8 +128,6 @@
     transform: rotate(90deg);
     bottom: 0;
 }
-
-
 
 
 
