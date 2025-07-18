@@ -25,9 +25,11 @@
     --black:   #282828;;
     --purple1: #7d1ad4; 
     --purple2: #6e17b9;
+    --habilidade: #3d2c8d;
 }
 
 [data-theme="dark"]{
     --white: 	#1f1f1f; 
     --black: 	#f5f5f5;
+    --habilidade:#026873;
 }

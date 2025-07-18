@@ -14,10 +14,6 @@
 }
 
 .habilidades .container-habilidades .informacoes {
-    max-width: 350px;
-   
-
-
   border-radius: 20px;
   padding: 30px 25px;
   max-width: 320px;
@@ -41,21 +37,31 @@
 }
 
 .habilidades .container-habilidades .informacoes h3 {
-    font-size: var(--fonte-extra-grande);
+    /* font-size: var(--fonte-extra-grande); */
     font-weight: 500;
     margin-bottom: 20px;
     color: var(--cor-primaria);
+    font-size: 2.5rem;
 }
 
 .habilidades .container-habilidades .informacoes p {
-    font-size: 1.8rem;
     font-family: var(--fonte-secundaria);
+  font-size: 1.5rem;
+  line-height: 1.6;
 }
 
-.habilidades .container-habilidades .informacoes:hover p {
-    transform: scale(1.10) translateY(-5px);
+
+.informacoes:hover {
+  transform: translateY(1px);
+  box-shadow: 0 10px 25px rgb(102 51 153 / 0.5);
 }
+
+
+/* .habilidades .container-habilidades .informacoes:hover p {
+    transform: scale(1.10) translateY(-5px);
+} */
 
 .habilidades .container-habilidades .informacoes .logo i {
-    font-size: 8rem;
+    font-size: 7.5rem;
+    color: var(--habilidade);
 }  
