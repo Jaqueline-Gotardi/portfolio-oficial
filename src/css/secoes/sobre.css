@@ -12,7 +12,7 @@
 .sobre-mim .imagem-sobre-mim .img-box {
     padding: 15px;
     border-radius: 7px;
-    text-align: center;
+    text-align: center; 
 }
 
 .sobre-mim .imagem-sobre-mim img {
@@ -46,7 +46,7 @@
 
 
 .sobre-mim .section-title h2 {
-  font-size: 3.5rem;
+  font-size: 3.3rem;
   color: var(--cor-primaria);
 }
 

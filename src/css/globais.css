@@ -126,7 +126,7 @@ html {
   .section-title h2 {
     font-size: var(--fonte-gigante);
     font-weight: 500;
-    text-transform: uppercase;
+    text-transform: uppercase; 
   }
 
   .botao {
