@@ -3,6 +3,10 @@
 .sobre-mim .imagem-sobre-mim {
     max-width: 40%;
     padding: 0 15px;
+   
+  flex: 0 1 320px;
+  /* overflow: hidden; */
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
 }
 
 .sobre-mim .imagem-sobre-mim .img-box {
@@ -14,16 +18,36 @@
 .sobre-mim .imagem-sobre-mim img {
     border: 10px solid transparent;
     border-radius: 5px;
+    
 }
 
 .sobre-mim .informacoes-sobre-mim {
     max-width: 60%;
     padding: 0 25px;
     align-self: center;
+
+   line-height: 1.2;
+  
+}
+
+.informacoes-sobre-mim strong {
+  color: var(--cor-secundaria);
+  font-weight: 700;
+  font-size: 1.9rem;
 }
 
 .sobre-mim .informacoes-sobre-mim .botoes {
     margin-top: 50px;
+}
+
+.sobre-mim .informacoes-sobre-mim .botoes a:hover {
+    background-color: var(--cor-secundaria);
+}
+
+
+.sobre-mim .section-title h2 {
+  font-size: 3.5rem;
+  color: var(--cor-primaria);
 }
 
 .sobre-mim .informacoes-sobre-mim p {

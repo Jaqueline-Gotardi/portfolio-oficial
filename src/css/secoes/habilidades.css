@@ -1,15 +1,28 @@
 /* HABILIDADES */
+.habilidades .section-title h2 {
+  font-size: 3rem;
+  color: var(--cor-secundaria);
+}
+
 .habilidades .container-habilidades {
     text-align: center;
     display: flex;
     justify-content: center; 
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 30px;
 }
 
 .habilidades .container-habilidades .informacoes {
     max-width: 350px;
-    padding: 40px 20px;
+   
+
+
+  border-radius: 20px;
+  padding: 30px 25px;
+  max-width: 320px;
+  box-shadow: 0 6px 15px rgb(102 51 153 / 0.25);
+  cursor: default;
 }
 
 .habilidades .container-habilidades .informacoes p,
