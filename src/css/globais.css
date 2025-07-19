@@ -85,7 +85,9 @@ html {
     margin: 0.4px;
     border-radius: 50%;
     transition: all 0.3s ease;
-    
+
+
+     /* color: var(--cor-secundaria); */
   }
 
   .redes-sociais a i {
@@ -94,7 +96,6 @@ html {
 
   .redes-sociais a:hover {
     /* color: var(--cor-primaria); */
-
     background-color: var(--cor-primaria);
     
   }

@@ -1,0 +1,60 @@
+/* VARIÁVEIS DE CORES */
+/*
+:root {     
+  --cor-texto-escuro: #282828;  
+  --cor-texto-claro: #666666;  
+  --cor-fundo-secundario: #f9fafc;
+  --cor-hover: #7d1ad4;         
+} *
+
+
+
+
+
+/* ==================== RESPONSIVIDADE ==================== */
+/*
+@media (max-width: 900px) {
+  .home .container {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .texto-home {
+    padding-right: 0;
+    max-width: 100%;
+  }
+
+  .img-home {
+    max-width: 280px;
+    margin-bottom: 40px;
+  }
+
+  .header nav ul {
+    gap: 1.3rem;
+  }
+
+  .container-projetos {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .texto-home h1 {
+    font-size: 3.2rem;
+  }
+  .texto-home h2 {
+    font-size: 1.8rem;
+  }
+  .texto-home p {
+    font-size: 1.4rem;
+  }
+  .projeto h3 {
+    font-size: 1.5rem;
+  }
+  .informacoes-projeto {
+    font-size: 1.2rem;
+  }
+  .habilidades .informacoes h3 {
+    font-size: 1.6rem;
+  }
+} */
