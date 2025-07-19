@@ -1,45 +1,68 @@
 .titulo-feedback {
     text-align: center;
-    flex: 0 0 100%;
-    max-width: 100%;
+   /*  flex: 0 0 100%; */
+    /* max-width: 100%; */
     padding: 60px 0;
-    font-size: var(--fonte-gigante);
     font-weight: 500;
     text-transform: uppercase;
-}
+    font-size: 4rem;
+  /* font-weight: 600; */
+  color: var(--cor-primaria);
+  margin-bottom: 3rem;
+  letter-spacing: 2px;
+} 
 
 .feedbacks{
     display: flex;
-    position: relative;
+    position: relative; 
     overflow: hidden;
     height: 280px;
     align-items: center;
     justify-content: center;
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
+ 
+ 
+  background: var(--cor-branca);
+  border-radius: 25px;
+  box-shadow: 0 10px 35px rgb(102 51 153 / 0.3);
 } 
 
 .feedback-container {
     display: flex;
     position: relative;
     width: 68%;
-    transition: translateX 0.5s ease;
+    transition: transform 0.5s ease;
 }
 
 .feedback {
     min-width: 100%;
-    transition: transform 1s ease;
+    transition: transform 0.3s ease;
     text-align: center;
-    padding: 20px;
-    transform: scale(1.1); 
-    transition: transform 0.5s ease; 
+    /* transform: scale(1.05);  */
+    /* transition: transform 0.5s ease;  */
     /* background: #795a5a; */ 
-    background-color: #bcd9e5; 
-
-    color: black;
+    padding: 30px 40px;
+ 
+/*  color: var(--cor-texto-escuro); */
+  font-size: 1.6rem;
+  background-color: var(--cor-branca);
+  /* border-radius: 25px; */
+  box-shadow: inset 0 0 15px rgb(0 0 0 / 0.05);
 }
+  
 
 .feedback:hover {
     transform: scale(1.1); 
     transition: transform 0.3s ease; 
+}
+
+.feedback h4 {
+    margin-top: 20px;
+  font-weight: 600;
+  color: var(--cor-secundaria);
+  font-size: 1.8rem;
 }
 
 .feedback.active {
@@ -50,20 +73,29 @@
 
 .seta {
     background: transparent;
-    border: none;
+   /*  border: none; */
     color: black;
     padding: 10px;
-    font-size: 2rem;
+    font-size: 2.8rem;
     cursor: pointer;
     z-index: 2; 
+    
+    
+  color: var(--cor-primaria);
+  transition: color 0.3s ease;
+/*   user-select: none; */
+}
+
+.seta:hover {
+    color: var(--cor-secundaria);
 }
 
 .seta.esquerda {
     position: absolute;
-    left: 10px;
+    left: 20px;
 }
 
 .seta.direita {
     position: absolute;
-    right: 10px;
+    right: 20px;
 }
