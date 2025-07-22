@@ -5,7 +5,7 @@
     padding: 60px 0;
     font-weight: 500;
     text-transform: uppercase;
-    font-size: 4rem;
+    font-size: 4.1rem;
   /* font-weight: 600; */
   color: var(--cor-primaria);
   margin-bottom: 3rem;
@@ -24,9 +24,10 @@
     margin: auto;
  
  
-  background: var(--cor-branca);
+ /*  background: var(--cor-branca); */
+ background-color: #89b1d4;
   border-radius: 25px;
-  box-shadow: 0 10px 35px rgb(102 51 153 / 0.3);
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.3);
 } 
 
 .feedback-container {

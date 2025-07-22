@@ -1,6 +1,6 @@
 .home {
   background: linear-gradient(145deg,  #e0f7fa, #ffffff);
-  min-height: 70vh;
+  min-height: 85vh;
   display: flex;
   align-items: center;
   padding: 0 20px;
@@ -64,8 +64,13 @@
         margin-top: 50px;
         max-width: 80%;
         margin: 40px;
-        
     }
+
+    .redes-sociais {
+  display: flex;
+  justify-content: center;
+}
+    
 }
 
 .home .img-home .img-box {
@@ -73,7 +78,7 @@
     margin: auto;
     border-radius: 70%;
 }
-
+ 
 /* .home .img-home .img-box {
      box-shadow: inset 10px 10px 2px #31cce0, inset -20px -20px 10px #022d41;
   } */

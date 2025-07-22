@@ -84,7 +84,7 @@
 .header .hamburguer {
     position: relative;
     display: block;
-     background-color: var(--black);
+     background-color: var(--cor-secundaria);
     width: 30px;
     height: 2px;
     top: 29px;
@@ -94,7 +94,7 @@
 
 .header .hamburguer:before,
 .header .hamburguer:after {
-     background-color: var(--black);
+     background-color: var(--cor-secundaria);
     content: '';
     display: block;
     width: 100%;
