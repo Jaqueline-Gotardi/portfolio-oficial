@@ -1,20 +1,37 @@
 .home {
   /* background: linear-gradient(145deg,  #e0f7fa, #ffffff); */
-  min-height: 85vh;
+  /* min-height: 85vh; */
+  /* height: 100vh;
+  justify-content: center;
+  align-items:center; */
+  /* padding: 2rem; */
+  display: flex;
+  /* align-items: center; */
+  /* padding: 0 20px; */
+}
+
+/* 
+.home .container-home {
+  display: flex;
+  justify-items: center;
   display: flex;
   align-items: center;
-  padding: 0 20px;
-}
+  justify-content: center;
+  height: 100vh;
+  padding: 2rem;
+  box-sizing: border-box;
+} */
 
 .home .full-screen {
     padding: 50px 0;
     margin-top: 40px;
-    min-height: 50vh; 
+    /* display: flex; */
+    justify-content: center;
+   /*  min-height: 50vh;  */
     /* background-color: #ffffff; */
 } 
 
 .home .texto-home {
-   
     /*grid-area: texto-home;*/
     /* background-color: #eac9fa; */
     position: relative;
@@ -38,11 +55,12 @@
   /* box-shadow: 0 0 8px var(--cor-branca); */
 }
 
-.home .texto-home, .home .img-home {
+.home .texto-home, 
+.home .img-home {
     flex: 0 0 50%;
     /* ocupa 50% do tamanho e não faz grow nem shrink */
-    max-width: 50%;
-    padding: 0 15px;
+    max-width: 40%;
+    padding: 5px;
 }
 
 .img-home:hover {
@@ -56,14 +74,17 @@
         max-width: 100%;
         text-align: center;
         /* background-color: rgb(138, 178, 197); */
-      height: 40vh; 
+        height: 40vh; 
         padding: 0 var(--mobile-padding);
     }
+
     .home .img-home {
-        flex: 0 0 1000%;
+      display: flex;
+      justify-content: center;
+        /* flex: 0 0 1000%;
         margin-top: 50px;
         max-width: 80%;
-        margin: 40px;
+        margin: 40px; */
     }
 
     .redes-sociais {
@@ -101,7 +122,7 @@
   box-shadow: 0 10px 30px var(--imagem);
 
   transition: transform 0.3s ease;
-  max-width: 350px; 
+  max-width: 310px; 
 }
 
 
@@ -133,4 +154,18 @@
   /* margin-bottom: 2rem; */
   font-style: italic;
   color: #2a5066;
+}
+
+@media(max-width: 456px) {
+  .home .texto-home {
+        height: auto;
+        margin-top: -40px;
+        padding-bottom: 60px;
+    }
+
+    .home .texto-home h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
 }

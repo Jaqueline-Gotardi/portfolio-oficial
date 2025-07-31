@@ -1,15 +1,19 @@
 /* SOBRE MIM */
 
 .sobre-mim .imagem-sobre-mim {
-    max-width: 40%;
+    max-width: 45%;
     padding: 0 15px;
    
-  flex: 0 1 320px;
+  /* flex: 0 1 320px; */
   /* overflow: hidden; */
   box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+
+
+  flex: 0 1 40%;  /* Ocupa até 45% do espaço disponível */
+  /* max-width: 45%; */
 }
 
-.sobre-mim .imagem-sobre-mim .img-box {
+.sobre-mim .imagem-sobre-mim .img-box { 
     padding: 15px;
     border-radius: 7px;
     text-align: center; 
@@ -17,8 +21,7 @@
 
 .sobre-mim .imagem-sobre-mim img {
     border: 10px solid transparent;
-    border-radius: 5px;
-    
+    border-radius: 5px;    
 }
 
 .sobre-mim .informacoes-sobre-mim {
@@ -79,8 +82,32 @@
     }
 }
 
-@media(max-width: 768px) {
+/* @media(max-width: 768px) {
+    .sobre-mim .imagem-sobre-mim {
+        max-width: 70%;
+        flex: 0 1 45%;
+    }
+
     .sobre-mim .informacoes-sobre-mim {
         max-width: 100%;
     }
+} */
+
+
+@media (max-width: 768px) {
+  /* .sobre-mim .row {
+    flex-direction: column;
+    align-items: center;
+  } */
+
+  .sobre-mim .imagem-sobre-mim,
+  .sobre-mim .informacoes-sobre-mim {
+    max-width: 100%;
+    flex-basis: 90%;
+    padding: 0 var(--mobile-padding);
+  }
+
+  .sobre-mim .imagem-sobre-mim {
+    margin-bottom: 30px;
+  }
 }

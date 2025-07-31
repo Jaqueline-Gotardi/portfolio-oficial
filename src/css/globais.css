@@ -14,6 +14,7 @@ html {
     /* font-family: var(--fonte-primaria);
     font-size: var(--fonte-normal);
  */
+/*  height: 100%; */
  
     font-size: var(--fonte-normal);
     background-color: var(--white);
@@ -34,7 +35,6 @@ html {
   .container {
     max-width: 1140px; 
     margin: auto;
-
   }
   
  
