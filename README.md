@@ -37,7 +37,7 @@ A proposta é manter uma apresentação limpa, objetiva e responsiva, oferecendo
 4. Servir como cartão de visitas em buscas por oportunidades de estágio na área de desenvolvimento
 
 ### 🚀 Acesse o portfólio
-🔗 Clique aqui para acessar o projeto publicado
+🔗 [Clique aqui para acessar o projeto publicado](https://jaqueline-gotardi.github.io/portfolio-oficial/)
 
 ### 📫 Contato
 Você pode me encontrar no LinkedIn ou entrar em contato por e-mail:
