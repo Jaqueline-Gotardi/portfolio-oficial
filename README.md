@@ -2,6 +2,8 @@
 Bem-vindo(a) ao repositório do meu portfólio!
 Este projeto foi desenvolvido com o objetivo de apresentar minha trajetória como estudante de Desenvolvimento Full Stack, com foco especial em Front-end.
 
+![previw da tela](src/imagens/tela-responsive.png)
+
 ## ✨ Sobre
 Este portfólio é uma vitrine dos meus projetos, aprendizados e experiências práticas no universo da programação.
 A proposta é manter uma apresentação limpa, objetiva e responsiva, oferecendo uma experiência agradável tanto no desktop quanto em dispositivos móveis.
