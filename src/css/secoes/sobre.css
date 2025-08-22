@@ -1,36 +1,27 @@
-/* SOBRE MIM */
-
 .sobre-mim .imagem-sobre-mim {
-    max-width: 45%;
-    padding: 0 15px;
-   
-  /* flex: 0 1 320px; */
-  /* overflow: hidden; */
-  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-
-
-  flex: 0 1 40%;  /* Ocupa até 45% do espaço disponível */
-  /* max-width: 45%; */
+  max-width: 45%;
+  padding: 0 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  flex: 0 1 40%;
+  /* Ocupa até 45% do espaço disponível */
 }
 
-.sobre-mim .imagem-sobre-mim .img-box { 
-    padding: 15px;
-    border-radius: 7px;
-    text-align: center; 
+.sobre-mim .imagem-sobre-mim .img-box {
+  padding: 15px;
+  border-radius: 7px;
+  text-align: center;
 }
 
 .sobre-mim .imagem-sobre-mim img {
-    border: 10px solid transparent;
-    border-radius: 5px;    
+  border: 10px solid transparent;
+  border-radius: 5px;
 }
 
 .sobre-mim .informacoes-sobre-mim {
-    max-width: 60%;
-    padding: 0 25px;
-    align-self: center;
-
-   line-height: 1.2;
-  
+  max-width: 60%;
+  padding: 0 25px;
+  align-self: center;
+  line-height: 1.2;
 }
 
 .informacoes-sobre-mim strong {
@@ -40,13 +31,12 @@
 }
 
 .sobre-mim .informacoes-sobre-mim .botoes {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .sobre-mim .informacoes-sobre-mim .botoes a:hover {
-    background-color: var(--cor-secundaria);
+  background-color: var(--cor-secundaria);
 }
-
 
 .sobre-mim .section-title h2 {
   font-size: 3.3rem;
@@ -54,51 +44,35 @@
 }
 
 .sobre-mim .informacoes-sobre-mim p {
-    font-size: 2rem;
-    font-weight: 300;
-    margin-bottom: 15px;
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 15px;
 }
 
 @media(max-width: 1280px) {
-    .sobre-mim .row {
-        justify-content: center;
-    }
+  .sobre-mim .row {
+    justify-content: center;
+  }
 
-    .sobre-mim .imagem-sobre-mim {        
-        max-width: 100%;
-        padding: 0 var(--mobile-padding);
-        margin-bottom: 50px;
-    }
+  .sobre-mim .imagem-sobre-mim {
+    max-width: 100%;
+    padding: 0 var(--mobile-padding);
+    margin-bottom: 50px;
+  }
 
-    .sobre-mim .informacoes-sobre-mim {  
-        padding: 0 var(--mobile-padding);
-        text-align: center;
-    }
+  .sobre-mim .informacoes-sobre-mim {
+    padding: 0 var(--mobile-padding);
+    text-align: center;
+  }
 
-    .sobre-mim .imagem-sobre-mim .inner-shadow {
-        -webkit-box-shadow: none;
-        -moz-box-shadow: none;
-        box-shadow: none;
-    }
+  .sobre-mim .imagem-sobre-mim .inner-shadow {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
 }
 
-/* @media(max-width: 768px) {
-    .sobre-mim .imagem-sobre-mim {
-        max-width: 70%;
-        flex: 0 1 45%;
-    }
-
-    .sobre-mim .informacoes-sobre-mim {
-        max-width: 100%;
-    }
-} */
-
-
 @media (max-width: 768px) {
-  /* .sobre-mim .row {
-    flex-direction: column;
-    align-items: center;
-  } */
 
   .sobre-mim .imagem-sobre-mim,
   .sobre-mim .informacoes-sobre-mim {
