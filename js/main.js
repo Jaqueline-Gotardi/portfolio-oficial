@@ -106,33 +106,62 @@ projetos.forEach((projeto) => {
 
 
 
-
+ 
 
 
   /* CARROSSEL DE FEEDBACKS */
-  const feedbackContainer = document.querySelector('.feedback-container');
-const feedbacks = document.querySelectorAll('.feedback');
-const setaEsquerda = document.querySelector('.seta.esquerda');
-const setaDireita = document.querySelector('.seta.direita');
+  window.addEventListener('load', function() {
+    const feedbackContainer = document.querySelector('.feedback-container');
+    const feedbacks = document.querySelectorAll('.feedback');
+    const setaEsquerda = document.querySelector('.seta.esquerda');
+    const setaDireita = document.querySelector('.seta.direita');
+  
+    let currentPosition = 0;
+    let feedbackWidth = Math.round(feedbacks[0].getBoundingClientRect().width);
+    let containerWidth = feedbackWidth * feedbacks.length;
+    let intervalId;
+  
+    feedbackContainer.style.width = `${containerWidth}px`;
+  
+    function moveLeft() {
+      currentPosition += feedbackWidth;
+      if (currentPosition > 0) {
+        currentPosition = -containerWidth + feedbackWidth;
+      }
+      feedbackContainer.style.transform = `translateX(${Math.round(currentPosition)}px)`;
+    }
+  
+    function moveRight() {
+      currentPosition -= feedbackWidth;
+      if (currentPosition < -containerWidth + feedbackWidth) {
+        currentPosition = 0;
+      }
+      feedbackContainer.style.transform = `translateX(${Math.round(currentPosition)}px)`;
+    }
+  
+    function startAutoScroll() {
+      intervalId = setInterval(moveRight, 3000); // Ajuste a velocidade conforme necessário
+    }
+  
+    function stopAutoScroll() {
+      clearInterval(intervalId);
+    }
+  
+    setaEsquerda.addEventListener('click', () => {
+      moveLeft();
+    });
+  
+    setaDireita.addEventListener('click', () => {
+      moveRight();
+    });
 
-let currentPosition = 0;
-const feedbackWidth = Math.round(feedbacks[0].getBoundingClientRect().width);
-const containerWidth = feedbackWidth * feedbacks.length;
-
-feedbackContainer.style.width = `${containerWidth}px`;
-
-setaEsquerda.addEventListener('click', () => {
-  currentPosition += feedbackWidth;
-  if (currentPosition > 0) {
-    currentPosition = 0;
-  }
-  feedbackContainer.style.transform = `translateX(${Math.round(currentPosition)}px)`;
-});
-
-setaDireita.addEventListener('click', () => {
-  currentPosition -= feedbackWidth;
-  if (currentPosition < -containerWidth + feedbackWidth) {
-    currentPosition = -containerWidth + feedbackWidth;
-  }
-  feedbackContainer.style.transform = `translateX(${Math.round(currentPosition)}px)`;
-});
+    feedbackContainer.addEventListener('mouseenter', () => {
+      stopAutoScroll();
+    });
+  
+    feedbackContainer.addEventListener('mouseleave', () => {
+      startAutoScroll();
+    });
+  
+    startAutoScroll();
+  });
