@@ -27,7 +27,7 @@
 .informacoes-sobre-mim strong {
   color: var(--cor-secundaria);
   font-weight: 700;
-  font-size: 1.9rem;
+  font-size: 1.9rem; 
 }
 
 .sobre-mim .informacoes-sobre-mim .botoes {
@@ -40,7 +40,8 @@
 
 .sobre-mim .section-title h2 {
   font-size: 3.3rem;
-  color: var(--cor-primaria);
+  color: var(--black);
+  font-weight: 600;
 }
 
 .sobre-mim .informacoes-sobre-mim p {

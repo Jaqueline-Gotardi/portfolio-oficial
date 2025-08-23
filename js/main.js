@@ -164,4 +164,4 @@ projetos.forEach((projeto) => {
     });
   
     startAutoScroll();
-  });
+  }); 

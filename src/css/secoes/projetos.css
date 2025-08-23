@@ -1,6 +1,7 @@
 .projetos .section-title h2 {
-    font-size: 3rem;
-    color: var(--cor-primaria);
+    font-size: 3.3rem;
+    color: var(--black);
+    font-weight: 600;
     margin-bottom: 3rem;
 }
 

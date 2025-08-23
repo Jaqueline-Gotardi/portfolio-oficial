@@ -1,7 +1,8 @@
 /* HABILIDADES */
 .habilidades .section-title h2 {
-  font-size: 3rem;
-  color: var(--cor-secundaria);
+  font-size: 3.3rem;
+  color: var(--black);
+  font-weight: 600;
 }
  
 .habilidades .container-habilidades {
